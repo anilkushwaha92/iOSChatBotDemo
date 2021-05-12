@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import PaddingLabel
 
 class LeftListCell: UITableViewCell {
 
@@ -14,7 +15,6 @@ class LeftListCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        messageLbl.padding(10, 10, 10, 10)
         messageLbl.layer.masksToBounds = true
         messageLbl.layer.cornerRadius = 5.0
         imgView.layer.cornerRadius = 20.0

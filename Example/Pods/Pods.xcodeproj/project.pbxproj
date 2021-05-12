@@ -83,6 +83,8 @@
 		044309A17B7C16BD0CF220BD6C71C6F7 /* secure_channel_create.cc in Sources */ = {isa = PBXBuildFile; fileRef = 91B9DED7C2FF4335628B0633C87963EE /* secure_channel_create.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -Wno-comma -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		04471414264BCD6B0087EE77 /* ChatBotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04471412264BCD6A0087EE77 /* ChatBotVC.swift */; };
 		04471415264BCD6B0087EE77 /* ChatBotVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04471413264BCD6A0087EE77 /* ChatBotVC.xib */; };
+		04471542264BEC580087EE77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04471541264BEC570087EE77 /* GoogleService-Info.plist */; };
+		0447155A264BEC740087EE77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04471541264BEC570087EE77 /* GoogleService-Info.plist */; };
 		04495CB74CD5F7776835D17E737EED85 /* ecdsa_asn1.c in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC5CCA0F87FD8BCE69672F1BA8BC27 /* ecdsa_asn1.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		04791E9F5DD8492963995143CFA88BC0 /* socket_mutator.h in Copy src/core/lib/iomgr Private Headers */ = {isa = PBXBuildFile; fileRef = 98AA1D84C2ED6600FCD062D517496229 /* socket_mutator.h */; };
 		0482B3F44BF1EC2A2B0C282227207260 /* timers.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CAD46E95743CA70EAD63579C04B8ED /* timers.h */; };
@@ -8168,6 +8170,7 @@
 		0406FE9D0458000FBE7CE67A58A95539 /* tls13_server.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = tls13_server.cc; path = src/ssl/tls13_server.cc; sourceTree = "<group>"; };
 		04471412264BCD6A0087EE77 /* ChatBotVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatBotVC.swift; path = iOSChatBotDemo/Classes/ChatBotVC.swift; sourceTree = "<group>"; };
 		04471413264BCD6A0087EE77 /* ChatBotVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatBotVC.xib; path = iOSChatBotDemo/Classes/ChatBotVC.xib; sourceTree = "<group>"; };
+		04471541264BEC570087EE77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "iOSChatBotDemo/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0453021A4F4DF1756FCE2F5810BDC485 /* GDTCOREvent_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREvent_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCOREvent_Private.h; sourceTree = "<group>"; };
 		047421E66CFFC11D403B191AAA2AE5D5 /* pcy_lib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pcy_lib.c; path = src/crypto/x509v3/pcy_lib.c; sourceTree = "<group>"; };
 		0487A7F9411E7A580495A1CD76AC1B1E /* cpu-arm-linux.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "cpu-arm-linux.c"; path = "src/crypto/cpu-arm-linux.c"; sourceTree = "<group>"; };
@@ -13610,6 +13613,7 @@
 		9A1467F852FF31BA47ACE29B555012D3 /* iOSChatBotDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04471541264BEC570087EE77 /* GoogleService-Info.plist */,
 				04471412264BCD6A0087EE77 /* ChatBotVC.swift */,
 				04471413264BCD6A0087EE77 /* ChatBotVC.xib */,
 				36452AED5377FDAC3FD5859F4BEC151D /* Extension.swift */,
@@ -17232,6 +17236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04471542264BEC580087EE77 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -17320,6 +17325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0447155A264BEC740087EE77 /* GoogleService-Info.plist in Resources */,
 				04471415264BCD6B0087EE77 /* ChatBotVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

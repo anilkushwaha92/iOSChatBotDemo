@@ -45,13 +45,6 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var feedbackLbl: UILabel!
     @IBOutlet weak var startBotFlowBtn: UIButton!
     @IBOutlet weak var startBotFlowHieghtConstraint: NSLayoutConstraint!
-
-    public init() {
-        super.init(nibName: "ChatBotVC", bundle: Bundle(for: ChatBotVC.self))
-    }
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -435,9 +428,7 @@ extension ChatBotVC: UITableViewDataSource, UITableViewDelegate {
                     }
                 }
             }
-            
         }
-        
     }
     
     func methodForPassCalculateTheNodeAndPassTheteextMessage(templateDict : [String : Any])-> String{
