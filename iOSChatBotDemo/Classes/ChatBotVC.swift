@@ -338,8 +338,8 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
     }
     
     func scrollToBottom(){
-
-            DispatchQueue.main.async {
+            
+        DispatchQueue.main.async {
                 let indexPath = IndexPath(
                     row: self.tableviewList.numberOfRows(inSection:  self.tableviewList.numberOfSections-1) - 1,
                     section: self.tableviewList.numberOfSections - 1)
@@ -347,6 +347,7 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
                     self.tableviewList.scrollToRow(at: indexPath, at: .bottom, animated: true)
                 }
             }
+        
     }
     
     func hasRowAtIndexPath(indexPath: IndexPath) -> Bool {
@@ -481,5 +482,4 @@ extension ChatBotVC: ADCountryPickerDelegate{
         countryCodeBtn.setTitle("+\(dialCode)", for: .normal)
         phoneExtension = "+\(dialCode)"
     }
-
 }
