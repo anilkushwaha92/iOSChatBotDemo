@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'iOSChatBotDemo_Example' do
+  pod 'iOSChatBotDemo', :path => '../'
+
+  target 'iOSChatBotDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
