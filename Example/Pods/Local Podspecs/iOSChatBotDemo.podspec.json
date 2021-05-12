@@ -1,8 +1,8 @@
 {
   "name": "iOSChatBotDemo",
   "version": "0.1.0",
-  "summary": "A short description of iOSChatBotDemo.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "iOSChatBotDemo framework a short description of for use in the iOS App.",
+  "description": "TODO: Try to keep it short, snappy and to the point, iOSChatBotDemo framework a short description of for use in the iOS App.",
   "homepage": "https://github.com/anilkushwaha92/iOSChatBotDemo",
   "license": {
     "type": "MIT",
@@ -18,5 +18,31 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "iOSChatBotDemo/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "iOSChatBotDemo/Classes/**/*",
+  "resource_bundles": {
+    "iOSChatBotDemo": [
+      "iOSChatBotDemo/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png, plist}"
+    ]
+  },
+  "exclude_files": "Classes/Exclude",
+  "static_framework": true,
+  "dependencies": {
+    "Firebase/Firestore": [
+
+    ],
+    "FirebaseFirestoreSwift": [
+
+    ],
+    "PaddingLabel": [
+
+    ],
+    "ADCountryPicker": [
+
+    ],
+    "AMKeyboardFrameTracker": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }
