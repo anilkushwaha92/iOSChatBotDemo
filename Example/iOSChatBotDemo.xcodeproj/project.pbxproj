@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20F39AC00CD8336133951022 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		20F39AC00CD8336133951022 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2D623DE001E46586DC0A6BD8 /* Pods-iOSChatBotDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSChatBotDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-iOSChatBotDemo_Example/Pods-iOSChatBotDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		41DD0933045B2BF7ADEC7F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		41DD0933045B2BF7ADEC7F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* iOSChatBotDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSChatBotDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		B5BED9554B90883EC1CE268D /* Pods_iOSChatBotDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSChatBotDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25FFF6BF77D84F8942B97CE /* Pods-iOSChatBotDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSChatBotDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-iOSChatBotDemo_Tests/Pods-iOSChatBotDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C76CFC3FE29269E48B30B188 /* Pods_iOSChatBotDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSChatBotDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D11D1867424D1A6D9893C595 /* iOSChatBotDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSChatBotDemo.podspec; path = ../iOSChatBotDemo.podspec; sourceTree = "<group>"; };
+		D11D1867424D1A6D9893C595 /* iOSChatBotDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSChatBotDemo.podspec; path = ../iOSChatBotDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D27591A9EE67AB68D638637B /* Pods-iOSChatBotDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSChatBotDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOSChatBotDemo_Tests/Pods-iOSChatBotDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				D27591A9EE67AB68D638637B /* Pods-iOSChatBotDemo_Tests.debug.xcconfig */,
 				C25FFF6BF77D84F8942B97CE /* Pods-iOSChatBotDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

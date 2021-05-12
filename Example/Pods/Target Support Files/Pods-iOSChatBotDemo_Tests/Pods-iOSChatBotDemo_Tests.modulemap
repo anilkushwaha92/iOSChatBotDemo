@@ -1,0 +1,6 @@
+framework module Pods_iOSChatBotDemo_Tests {
+  umbrella header "Pods-iOSChatBotDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
