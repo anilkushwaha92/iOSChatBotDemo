@@ -75,8 +75,10 @@ public class ChatBotVC: UIViewController, UITextFieldDelegate {
 
     func methodForSetup(){
         
-        self.tableviewList?.register(UINib(nibName: "LeftListCell", bundle: nil), forCellReuseIdentifier: "LeftListCell")
-        self.tableviewList?.register(UINib(nibName: "RightListCell", bundle: nil), forCellReuseIdentifier: "RightListCell")
+        let bundlePath = Bundle.main.path(forResource: "iOSChatBotDemo", ofType: "bundle")
+        let resourceBundle = Bundle.init(path: bundlePath!)
+        self.tableviewList?.register(UINib(nibName: "LeftListCell", bundle: resourceBundle), forCellReuseIdentifier: "LeftListCell")
+        self.tableviewList?.register(UINib(nibName: "RightListCell", bundle: resourceBundle), forCellReuseIdentifier: "RightListCell")
         self.tableviewList.separatorStyle = .none
         self.tableviewList.rowHeight = UITableView.automaticDimension
         self.tableviewList.estimatedRowHeight = 300
@@ -465,6 +467,7 @@ extension ChatBotVC: UITableViewDataSource, UITableViewDelegate {
         return ""
         
     }
+    
 }
 
 extension ChatBotVC: AMKeyboardFrameTrackerDelegate {
