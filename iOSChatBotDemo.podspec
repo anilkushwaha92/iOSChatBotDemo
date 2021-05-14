@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSChatBotDemo'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'iOSChatBotDemo framework a short description of for use in the iOS App.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Try to keep it short, snappy and to the point, iOSChatBotDemo framework a 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
   s.source_files = 'iOSChatBotDemo/Classes/**/*'
-  s.resources = 'iOSChatBotDemo/Assets/*'
+  # s.resources = 'iOSChatBotDemo/Assets/*'
   s.resource_bundles = {
      'iOSChatBotDemo' =>  ['iOSChatBotDemo/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png, plist}']
    }
